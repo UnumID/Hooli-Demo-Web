@@ -76,12 +76,12 @@ export const links: LinksFunction = () => [
   {
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap',
-    as: 'font',
+    as: 'style',
   },
   {
     rel: 'stylesheet',
     href: '/fonts/fonts.css',
-    as: 'font',
+    as: 'style',
   },
 ];
 

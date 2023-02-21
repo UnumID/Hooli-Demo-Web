@@ -4,7 +4,7 @@ import TopAppBar from './components/TopAppBar';
 
 export default function Layout({ children }: PropsWithChildren) {
   return (
-    <Box>
+    <Box minHeight='100vh'>
       <TopAppBar />
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>{children}</Box>
     </Box>
